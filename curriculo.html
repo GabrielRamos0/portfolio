@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Programação em Python</title>
+    <link rel="stylesheet" href="1style.css">
+</head>
+<body>
+    <header>
+        <h1 id="titulo">Meu Portfólio</h1>
+        <p class="subtitulo">Estudante de <span class="destaque">Python</span> | Apaixonado por jogos 🎮</p>
+    </header>
+
+    <section id="sobre">
+        <h2>Sobre mim</h2>
+        <img src="https://via.placeholder.com/200" alt="Foto representativa" class="foto">
+        <p>Olá! Sou estudante de programação em Python. Nos meus tempos livres, gosto de jogar e explorar o mundo dos games. 🚀</p>
+    </section>
+
+    <section id="midia">
+        <h2>Um vídeo que gosto</h2>
+        <iframe width="400" height="250" 
+                src="https://www.youtube.com/embed/dQw4w9WgXcQ" 
+                title="Vídeo de hobby" frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+        </iframe>
+    </section>
+
+    <section id="tabela">
+        <h2>Meus Hobbies e Habilidades</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Hobby</th>
+                    <th>Habilidade</th>
+                    <th>Filme Favorito</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Jogar videogame</td>
+                    <td>Programar em Python</td>
+                    <td>Vingadores</td>
+                </tr>
+                <tr>
+                    <td>Assistir séries</td>
+                    <td>Lógica de programação</td>
+                    <td>Interestelar</td>
+                </tr>
+                <tr>
+                    <td>Ler artigos</td>
+                    <td>Trabalho em equipe</td>
+                    <td>Matrix</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+
+    <section id="contato">
+        <h2>Entre em Contato</h2>
+        <form action="#" method="post">
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" required><br><br>
+
+            <label for="email">E-mail:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" rows="5" required></textarea><br><br>
+
+            <p>O que achou do site?</p>
+            <input type="radio" id="gostei" name="opiniao" value="gostei">
+            <label for="gostei">Gostei</label>
+            <input type="radio" id="naogostei" name="opiniao" value="naogostei">
+            <label for="naogostei">Não Gostei</label><br><br>
+
+            <input type="checkbox" id="termos" name="termos" required>
+            <label for="termos">Concordo com os termos fictícios</label><br><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 - Portfólio de Programação em Python</p>
+    </footer>
+</body>
+</html>
