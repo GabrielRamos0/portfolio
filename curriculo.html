@@ -88,3 +88,93 @@
     </footer>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio - Gabriel</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Cabeçalho -->
+    <header>
+        <h1>Olá, eu sou o Gabriel 👋</h1>
+        <p>Estudo <strong>Python</strong> e gosto de jogar no meu tempo livre 🎮</p>
+    </header>
+
+    <!-- Imagem -->
+    <section id="sobre">
+        <h2>Sobre Mim</h2>
+        <img src="https://i.imgur.com/qHcKw4G.png" alt="Minha foto ou avatar" class="foto">
+        <p>Sou apaixonado por tecnologia, programação e games. Sempre busco aprender coisas novas e melhorar minhas habilidades!</p>
+    </section>
+
+    <!-- Vídeo -->
+    <section id="hobby">
+        <h2>Meu Hobby</h2>
+        <p>Esse vídeo representa um pouco do que gosto de fazer no tempo livre:</p>
+        <video width="500" controls>
+            <source src="https://www.w3schools.com/html/mov_bbb.mp4" type="video/mp4">
+            Seu navegador não suporta a tag de vídeo.
+        </video>
+    </section>
+
+    <!-- Tabela -->
+    <section id="tabela">
+        <h2>Minhas Paixões</h2>
+        <table>
+            <tr>
+                <th>Hobby</th>
+                <th>Habilidade</th>
+                <th>Filme Favorito</th>
+            </tr>
+            <tr>
+                <td>Games 🎮</td>
+                <td>Python 🐍</td>
+                <td>Matrix</td>
+            </tr>
+            <tr>
+                <td>Música 🎵</td>
+                <td>Lógica de programação</td>
+                <td>Interestelar</td>
+            </tr>
+            <tr>
+                <td>Séries 📺</td>
+                <td>Criatividade</td>
+                <td>Vingadores</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- Formulário -->
+    <section id="contato">
+        <h2>Entre em Contato</h2>
+        <form>
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome" required><br><br>
+
+            <label for="email">E-mail:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="mensagem">Mensagem:</label><br>
+            <textarea id="mensagem" name="mensagem" rows="4"></textarea><br><br>
+
+            <input type="checkbox" id="termos" name="termos">
+            <label for="termos">Concordo com os termos fictícios</label><br><br>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Rodapé -->
+    <footer>
+        <p>&copy; 2025 - Gabriel | Feito com 💜</p>
+    </footer>
+
+</body>
+</html>
+
+theme: _config.yml
+theme: jekyll-theme-portfolio
